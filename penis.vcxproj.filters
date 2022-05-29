@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cheat Dependencies">
+      <UniqueIdentifier>{5ec1651f-8bed-4976-bd09-21fbaf047493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Dependencies">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main Dependencies">
+      <UniqueIdentifier>{e0b3c1c9-34d2-45e5-b65c-e0030e171c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Dependencies\Unreal Dependencies">
+      <UniqueIdentifier>{014777e7-81a5-488c-9dd2-0a7e1901bc25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Dependencies\Unreal Dependencies\Loop Dependencies">
+      <UniqueIdentifier>{7e579502-5fe2-48c3-9c5d-81833c7fa46b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Cheat Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Cheat Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealClasses.h">
+      <Filter>Cheat Dependencies\Unreal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Cheat Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealLoop.h">
+      <Filter>Cheat Dependencies\Unreal Dependencies\Loop Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealHooks.h">
+      <Filter>Cheat Dependencies\Unreal Dependencies\Loop Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealMenu.h">
+      <Filter>Cheat Dependencies\Unreal Dependencies\Loop Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Cheat Dependencies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fseesesfesfse.cpp">
+      <Filter>Main Dependencies</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
